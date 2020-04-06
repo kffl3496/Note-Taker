@@ -51,7 +51,10 @@ app.delete('/api/notes/:id', function(req, res) {
   });
 });
 
-app.listen(port);
+// app.listen(port);
+app.listen(process.env.PORT || 3000, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+});
 
 function uuidv4() {
   return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
