@@ -5,4 +5,4 @@ Created a server application that takes in a users input into a note-taking bloc
 
 github url: https://github.com/kffl3496/Note-Taker
 
-deployment url: https://kffl3496.github.io/Note-Taker/
+Heroku url: https://fast-anchorage-06334.herokuapp.com/
